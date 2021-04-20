@@ -1,0 +1,13 @@
+@import url(blocks.css);
+@import url(price.css);
+@import url(customers.css);
+@import url(axure.css);
+@import url(header.css);
+@import url(entry.css);
+@import url(contact.css);
+@import url(future.css);
+* {
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}

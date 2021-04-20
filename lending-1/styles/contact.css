@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contener {
+  max-width: 1170px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+  background: #E5E5E5;
+}
+
+.contact_form {
+  margin: 0 15px;
+}
+
+.contact_button {
+  margin: 0 15px;
+}
+
+.contact_text {
+  text-align: center;
+  padding-top: 80px;
+  margin: 0 15px;
+}
+
+.contact_text_heading {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}
+.contact_text_heading::after {
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 34px;
+  width: 64px;
+  border-bottom: 2px solid #E72424;
+}
+
+.contact_text_lorem {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878B;
+  margin-top: 34px;
+}
+
+.contact_form {
+  background-color: #E5E5E5;
+  margin-top: 91px;
+}
+
+#contact_for_me {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cotact_form_foryou {
+  max-width: 478px;
+  min-width: 400px;
+}
+
+.contact_username,
+.contact_email,
+.contact_password {
+  width: 100%;
+  margin-top: 18px;
+  margin-bottom: 21px;
+  background-color: #E5E5E5;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+}
+.contact_username:focus,
+.contact_email:focus,
+.contact_password:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.contact_username:active,
+.contact_email:active,
+.contact_password:active {
+  outline: 0;
+  outline-offset: 0;
+}
+.contact_username:hover,
+.contact_email:hover,
+.contact_password:hover {
+  content: "";
+  border: none;
+  outline: 0;
+  outline-offset: 0;
+  border-bottom: 1px solid #EC7979;
+  transition: 0.3s;
+}
+
+#cotact_message {
+  background-color: #E5E5E5;
+  margin-left: 5px;
+  max-width: 478px;
+  min-width: 400px;
+  height: 183px;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+}
+#cotact_message::after, #cotact_message:active, #cotact_message:hover, #cotact_message:focus {
+  outline: none;
+  outline: 0;
+  outline-offset: 0;
+}
+#cotact_message:hover {
+  content: "";
+  border: none;
+  outline: 0;
+  outline-offset: 0;
+  border-bottom: 1px solid #EC7979;
+  transition: 0.3s;
+}
+
+.contact_button {
+  text-align: center;
+  padding-bottom: 44px;
+}
+
+.contact_bytton {
+  border: none;
+  width: 166px;
+  height: 42px;
+  background-color: #333333;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-top: 68px;
+  margin-bottom: 48px;
+}
+.contact_bytton::after, .contact_bytton:active, .contact_bytton:hover {
+  outline: none;
+  outline: 0;
+  outline-offset: 0;
+}
+.contact_bytton:hover {
+  content: "";
+  background-color: #EC7979;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
